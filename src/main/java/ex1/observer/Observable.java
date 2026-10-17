@@ -1,0 +1,7 @@
+package ex1.observer;
+
+public interface Observable {
+    void ajouterObserver(Observer o);
+    void supprimerObserver(Observer o);
+    void notifierObservers();
+}
